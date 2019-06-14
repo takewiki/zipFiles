@@ -8,3 +8,7 @@ library(shiny)
 downloadHandler(filename = 'abc.zip',content = function(file){},
                 contentType = 'application/zip')
 #这是需要处理的地方;
+
+?fileInput
+library(tsShiny)
+shiny_
